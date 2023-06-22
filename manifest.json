@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Weather Forecast Extension",
+    "version": "1.0",
+    "description": "Displays weather forecast for a given location.",
+    "permissions": [
+      "geolocation"
+    ],
+    "icons":{
+      "16":"icons16.png"
+    },
+    "browser_action": {
+      "default_icon": "icons16.png",
+      "default_popup": "popup.html"
+    }
+  }
+  
